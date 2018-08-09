@@ -1,0 +1,116 @@
+<div class="{{block_prefix}}panel">
+	<div class="table-responsive">
+		<table class="table  table-bordered  {{block_mod}}">
+			<thead>
+				<tr>
+					<th>
+						<div class="is--setting">[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="icon-setting" ]]</div>
+					</th>
+					<th>Время</th>
+					<th>Компания</th>
+					<th class="is--auto">Тип поставки</th>
+					<th class="is--left">Информация об авто</th> 
+					<th>Учтен</th>
+					<th>Готово</th>
+				</tr>
+			</thead> 
+			<tbody> 
+				<tr> 
+					<td>
+						[[azbntple 
+							tpl="/src/block/site/default/button/link-icon.html"
+							button_prefix="btn__" 
+							button_mod="is--edit"
+							button_link="{{page.order_info}}"
+							button_icon="icon-edit"
+							button_attr="title='Редактивовать'"
+						]]
+					</td>
+					<td><div>08:00 - 10:00</div><div>Ворота №1</div></td>
+					<td>ООО Артстрой</td>
+					<td>Товар на европоддонах, не более 2 SKU/ОСГ на паллете</td>
+					<td class="is--left" >
+						<div><b>Тип авто:</b> до 1,5 тонны 4 паллет</div>
+						<div><b>Марка и гос. номер:</b> Газель С555АА 777 RUS</div>
+						<div><b>ФИО водителя:</b> Павлов Вениамин Егорович</div>
+					</td>
+					<td>
+						<div class="is--status">
+							[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="modal-close" ]]
+						</div>
+					</td>
+					<td>
+						<div class="is--status">
+							[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="modal-close" ]]
+						</div>
+					</td>
+				</tr>
+				<tr> 
+					<td>
+						[[azbntple 
+							tpl="/src/block/site/default/button/link-icon.html"
+							button_prefix="btn__" 
+							button_mod="is--edit"
+							button_link="{{page.order_info}}"
+							button_icon="icon-edit"
+							button_attr="title='Редактивовать'"
+						]]
+					</td>
+					<td><div>08:00 - 10:00</div><div>Ворота №1</div></td>
+					<td>ООО Артстрой</td>
+					<td>Товар на европоддонах, не более 2 SKU/ОСГ на паллете</td>
+					<td class="is--left" >
+						<div><b>Тип авто:</b> до 1,5 тонны 4 паллет</div>
+						<div><b>Марка и гос. номер:</b> Газель С555АА 777 RUS</div>
+						<div><b>ФИО водителя:</b> Павлов Вениамин Егорович</div>
+					</td>
+					<td>
+						<div class="is--status  is--ready">
+							[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="icon-ready" ]]
+						</div>
+					</td>
+					<td>
+						<div class="is--status">
+							[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="modal-close" ]]
+						</div>
+					</td>
+				</tr>
+				<tr class="is--ready"> 
+					<td>
+						[[azbntple 
+							tpl="/src/block/site/default/button/link-icon.html"
+							button_prefix="btn__" 
+							button_mod="is--edit"
+							button_link="{{page.order_info}}"
+							button_icon="icon-edit"
+							button_attr="title='Редактивовать'"
+						]]
+					</td>
+					<td><div>08:00 - 10:00</div><div>Ворота №1</div></td>
+					<td>ООО Артстрой</td>
+					<td>Товар на европоддонах, не более 2 SKU/ОСГ на паллете</td>
+					<td class="is--left" >
+						<div><b>Тип авто:</b> до 1,5 тонны 4 паллет</div>
+						<div><b>Марка и гос. номер:</b> Газель С555АА 777 RUS</div>
+						<div><b>ФИО водителя:</b> Павлов Вениамин Егорович</div>
+					</td>
+					<td>
+						<div class="is--status  is--ready">
+							[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="icon-ready" ]]
+						</div>
+					</td>
+					<td>
+						<div class="is--status  is--ready">
+							[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="icon-ready" ]]
+						</div>
+					</td>
+				</tr> 
+			</tbody>
+			<caption>
+				<div class="legend__card  is--stopped">- Машина заехала</div>
+				<div class="legend__card  is--loaded">- Машина загружается/разгружается</div>
+				<div class="legend__card  is--ready"> - Машина принята / отгружена</div>
+			</caption>
+		</table>
+	</div>	
+</div>

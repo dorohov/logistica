@@ -1,0 +1,116 @@
+<main class="{{content_prefix}}panel  {{content_mod}}">
+	<div class="{{content_prefix}}container container  {{content_mod}}  is--full">
+		[[azbntple 
+			tpl="/src/block/site/default/page-header/panel.html"
+			block_prefix="page-header__" 
+			block_mod="{{block_heading_mod}}"
+			block_heading_level="{{block_heading_level}}"
+			block_heading="{{block_heading}}"
+		]]
+		<div class="{{content_prefix}}elem  {{content_mod}}">
+			<div class="{{content_prefix}}row  row  is--wrap  is--gutter  {{content_mod}}">
+				<div class="{{content_prefix}}cols cols  is--left  {{content_mod}}">
+					<div class="{{content_prefix}}elem  is--lg  {{content_mod}}">
+						<h4 class="{{content_prefix}}heading  {{content_mod}}">Контактная информация:</h4>						
+						[[azbntple 
+							tpl="/src/block/site/default/social/panel-contacts-account.html" 
+							block_prefix="social-contacts__" 
+							block_mod="is--contacts  is--account" 
+						]]						
+					</div>
+					<div class="{{content_prefix}}elem  is--xs  {{content_mod}}">
+						<h4 class="{{content_prefix}}heading  {{content_mod}}">Описание компании:</h4>						
+						<div class="{{block_prefix}}text  text__block  {{block_mod}}">
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+						</div>					
+					</div>
+					<div class="{{content_prefix}}elem  is--xs  {{content_mod}}">
+						[[azbntple 
+							tpl="/src/block/site/default/button/link.html"
+							button_prefix="btn-link__" 
+							button_mod="  "
+							button_link="{{page.account_edit}}"
+							button_name="Отправить новые контактные данные" 
+						]]
+					</div>
+				</div>
+				<div class="{{content_prefix}}cols cols  is--right  {{content_mod}}">
+					<div class="{{content_prefix}}row row  is--wrap  is--gutter  {{content_mod}}">
+						<div class="{{content_prefix}}cols  cols  is--btn  {{content_mod}}">
+							[[azbntple 
+								tpl="/src/block/site/default/button/link.html"
+								button_prefix="btn__" 
+								button_mod="is--block  is--p"
+								button_link="{{page.order}}"
+								button_name="Выбрать дату"
+							]]
+						</div>
+						<div class="{{content_prefix}}cols  cols  is--btn  {{content_mod}}">
+							[[azbntple 
+								tpl="/src/block/site/default/button/link.html"
+								button_prefix="btn__" 
+								button_mod="is--invers  is--block  is--p"
+								button_link="{{page.history}}"
+								button_name="Календарь отгрузки/погрузки"
+							]]
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="{{content_prefix}}elem  {{content_mod}}">
+			<h4 class="{{content_prefix}}heading  {{content_mod}}">Последние новости</h4>
+			<div class="{{content_prefix}}row row  is--gutter  is--wrap">
+				<div class="{{content_prefix}}cols cols  is--elem-3"> 
+					[[azbntple 
+						tpl="/src/block/site/default/card/card-news.html"
+						block_prefix="card-item__" 
+						block_mod="is--news"
+						block_link="{{page.news_card}}"
+						block_preview="{{url-path-img}}/temp/news-card-item1.jpg"
+						block_preview="http://via.placeholder.com/640x340"
+						block_heading="Остекляем балкон и лоджию"
+						block_date="27.03.2018"
+						block_date_iso="2018-03-27"
+						block_note="Остекление лоджии или балкона – один из этапов максимально комфортной жизни в квартире. жизни в квартире. "
+					]]
+				</div>	
+				<div class="{{content_prefix}}cols cols  is--elem-3"> 
+					[[azbntple 
+						tpl="/src/block/site/default/card/card-news.html"
+						block_prefix="card-item__" 
+						block_mod="is--news"
+						block_link="{{page.news_card}}"
+						block_preview="{{url-path-img}}/temp/news-card-item1.jpg"
+						block_preview="http://via.placeholder.com/640x340"
+						block_heading="Остекляем балкон и лоджию"
+						block_date="27.03.2018"
+						block_date_iso="2018-03-27"
+						block_note="Остекление лоджии или балкона – один из этапов максимально комфортной жизни в квартире. жизни в квартире. "
+					]]
+				</div>	
+				<div class="{{content_prefix}}cols cols  is--elem-3"> 
+					[[azbntple 
+						tpl="/src/block/site/default/card/card-news.html"
+						block_prefix="card-item__" 
+						block_mod="is--news"
+						block_link="{{page.news_card}}"
+						block_preview="{{url-path-img}}/temp/news-card-item1.jpg"
+						block_preview="http://via.placeholder.com/640x340"
+						block_heading="Остекляем балкон и лоджию"
+						block_date="27.03.2018"
+						block_date_iso="2018-03-27"
+						block_note="Остекление лоджии или балкона – один из этапов максимально комфортной жизни в квартире. жизни в квартире. "
+					]]
+				</div>		
+			</div>		
+		</div>
+	</div>
+	[[azbntple 
+		tpl="8/src/block/site/default/bg/card-parallax.html"
+		block_prefix="bg-block__" 
+		block_mod="is--bg-box-183x189"
+		block_parallax="is--speed-5"
+		block_bg="bg-box-183x189.png"
+	]]
+</main>

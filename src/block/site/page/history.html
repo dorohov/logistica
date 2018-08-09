@@ -1,0 +1,45 @@
+<main class="{{content_prefix}}panel  {{content_mod}}">
+	<div class="{{content_prefix}}container container  {{content_mod}}  is--full">		
+		[[azbntple 
+			tpl="/src/block/site/default/page-header/panel-level2.html"
+			block_prefix="page-header__" 
+			block_mod="{{block_heading_mod}}"
+			block_heading_level="{{block_heading_level}}"
+			block_heading="{{block_heading}}"
+
+			block_bread_mod="{{block_bread_mod}}"
+			block_bread_level_1_link="{{block_bread_level_1_link}}"
+			block_bread_level_1="{{block_bread_level_1}}"
+		]]
+		<form action="#" class="form__block  {{content_prefix}}elem  {{content_mod}}">
+			<div class="{{content_prefix}}row  row  is--wrap  is--gutter  {{content_mod}}">
+				<div class="{{content_prefix}}cols cols  is--left  {{content_mod}}">						
+					<div class="{{content_prefix}}elem  is--xl  {{content_mod}}">
+						[[azbntple 
+							tpl="/src/block/site/default/form/form-history-datapicker.html"
+							form_prefix="form__"
+							form_id="fsh"
+							form_mod="is--history" 
+							form_color="  "
+							content_prefix="{{content_prefix}}"
+						]]					
+					</div>					
+				</div>
+				<div class="{{content_prefix}}cols cols  is--right  {{content_mod}}">
+					<div class="{{content_prefix}}heading-block  {{content_mod}}">
+						<div class="{{content_prefix}}row  row  is--wrap  is--gutter  is--aic  is--jcsb  {{content_mod}}">
+							<div class="{{content_prefix}}cols cols  is--heading  {{content_mod}}">
+								<h3 class="{{content_prefix}}heading  {{content_mod}}">Запланированные отгрузки на 3 июля</h3>
+							</div>
+						</div>
+					</div>
+					[[azbntple 
+						tpl="/src/block/site/default/table/panel-history.html" 
+						block_prefix="table-block__"
+						block_mod="is--history"
+					]]
+				</div>
+			</div>
+		</form>
+	</div>
+</main>

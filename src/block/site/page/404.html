@@ -1,0 +1,30 @@
+<main class="{{content_prefix}}panel  {{content_mod}}"  style="background-image: url({{content_bg}});">
+	<div class="{{content_prefix}}container container  {{content_mod}}  is--full">
+		<div class="{{content_prefix}}row  row  is--wrap  is--gutter  {{content_mod}}  is--aic">
+		<div class="{{content_prefix}}cols  cols  is--preview  {{content_mod}}">
+			<div class="{{content_prefix}}preview  {{content_mod}}"><img src="{{url-path-img}}/default/404.png" alt=""></div>
+		</div>
+		<div class="{{content_prefix}}cols  cols  is--note  {{content_mod}}">
+			<div class="{{content_prefix}}text  {{content_mod}}  text__block">
+				[[azbntple 
+					tpl="/src/block/site/default/page-header/panel-heading.html"
+					block_prefix="page-header__" 
+					block_mod="{{block_heading_mod}}"
+					block_heading_level="{{block_heading_level}}"
+					block_heading="{{block_heading}}"
+				]]
+				<p>Запрашиваемая Вами страница не найдена или не существует</p>	
+				<p>&nbsp;</p>
+				<p>	
+				[[azbntple 
+					tpl="/src/block/site/default/button/link.html"
+					button_prefix="btn__" 
+					button_mod="  "
+					button_link="{{page.index}}"
+					button_name="Ha главную"
+				]] 
+				</p>
+			</div>
+		</div>
+	</div>
+</main>

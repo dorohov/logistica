@@ -1,0 +1,103 @@
+<div class="row {{form_prefix}}row  {{form_mod}}  is--wrap">
+	<div class="cols {{form_prefix}}cols  {{form_mod}}  is--date">
+		<h5 class="{{content_prefix}}heading">
+			Дата:
+		</h5>
+		[[azbntple 
+			tpl="/src/block/site/default/form/elem-datapicker.html"
+			form_id="{{form_id}}"
+			block_id="date"
+			block_prefix="{{form_prefix}}"
+			block_mod="{{form_mod}}"
+			block_mod_elem="is--datepicker"
+			block_color="{{form_color}}"
+			block_plugin="datepicker-inline"
+			block_legend="<div class='legend__card  is--reserved'>- Забронированные</div><div class='legend__card  is--free'>- Свободные</div>"
+		]]
+	</div>
+	<div class="cols {{form_prefix}}cols  {{form_mod}}  is--gate">
+		<h5 class="{{content_prefix}}heading">
+			Ворота:
+		</h5>
+		[[azbntple 
+			tpl="/src/block/site/default/form/elem-switch.html"
+			form_id="{{form_id}}"
+			block_id="switch1"
+			block_prefix="form__"
+			block_mod="  "
+			block_mod_elem="is--switch"
+			block_color="  "
+			block_type="radio"
+			block_attr="checked"
+			block_required="required"
+			block_required_custom="  "
+			block_label="Радио кнопка"
+			block_text="Ворота №1"
+		]]
+		[[azbntple 
+			tpl="/src/block/site/default/form/elem-switch.html"
+			form_id="{{form_id}}"
+			block_id="switch2"
+			block_prefix="form__"
+			block_mod="  "
+			block_mod_elem="is--switch"
+			block_color="  "
+			block_type="radio"
+			block_attr="  "
+			block_required="required"
+			block_required_custom="  "
+			block_label="Радио кнопка"
+			block_text="Ворота №2"
+		]]
+		[[azbntple 
+			tpl="/src/block/site/default/form/elem-switch.html"
+			form_id="{{form_id}}"
+			block_id="switch3"
+			block_prefix="form__"
+			block_mod="  "
+			block_mod_elem="is--switch"
+			block_color="  "
+			block_type="radio"
+			block_attr="  "
+			block_required="required"
+			block_required_custom="  "
+			block_label="Радио кнопка"
+			block_text="Ворота №3"
+		]]
+		[[azbntple 
+			tpl="/src/block/site/default/form/elem-switch.html"
+			form_id="{{form_id}}"
+			block_id="switch4"
+			block_prefix="form__"
+			block_mod="  "
+			block_mod_elem="is--switch"
+			block_color="  "
+			block_type="radio"
+			block_attr="  "
+			block_required="required"
+			block_required_custom="  "
+			block_label="Радио кнопка"
+			block_text="Ворота №4"
+		]]
+		
+	</div>
+	<div class="cols {{form_prefix}}cols  {{form_mod}}  is--time">
+		<h5 class="{{content_prefix}}heading">
+			Время:
+		</h5>
+		[[azbntple 
+			tpl="/src/block/site/default/form/elem-select.html"
+			form_id="{{form_id}}"
+			block_id="auto_type"
+			block_prefix="{{form_prefix}}"
+			block_mod="{{form_mod}}"
+			block_mod_elem="is--select"
+			block_color="{{form_color}}"
+			block_attr="  "
+			block_required="required"
+			block_required_custom="  "
+			block_label="Тип поставки"
+			block_option="<option  disabled>Выбрать время</option><option selected>08:00 - 10:00</option><option>08:00 - 10:00</option><option>08:00 - 10:00</option><option disabled>08:00 - 10:00</option><option>08:00 - 10:00</option>"
+		]]
+	</div>
+</div>

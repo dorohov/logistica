@@ -1,0 +1,100 @@
+<div class="{{block_prefix}}panel">
+	<div class="table-responsive">
+		<table class="table  table-bordered  {{block_mod}}">
+			<thead>
+				<tr>
+					<th>
+						<div class="is--setting">[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="icon-setting" ]]</div>
+					</th>
+					<th>Компания</th>
+					<th>Логин</th>
+					<th>Телефон</th>
+					<th>E-mail</th>
+					<th>Дата регистрации</th>
+					<th></th>
+					<th></th>
+				</tr>
+			</thead> 
+			<tbody> 
+				<tr> 
+					<td>
+						[[azbntple 
+							tpl="/src/block/site/default/button/link-icon.html"
+							button_prefix="btn__" 
+							button_mod="is--edit"
+							button_link="{{page.signup_manager_edit}}"
+							button_icon="icon-edit"
+							button_attr="title='Редактивовать'"
+						]]
+					</td>
+					<td>ООО Артстрой</td>
+					<td>Artstroy</td>
+					<td>+7 (495) 660-11-60</td>
+					<td>info@terra-logistica.ru</td>
+					<td>30.04.2015</td>
+					<td>
+						[[azbntple 
+							tpl="/src/block/site/default/button/button-modal-icon.html"
+							button_prefix="btn__" 
+							button_mod="is--delete"
+							button_type="button"
+							button_icon="icon-lock"
+							button_attr="title='Заблокировать '"
+							button_target="modal-lock"
+						]]
+					</td>
+					<td>
+						[[azbntple 
+							tpl="/src/block/site/default/button/button-modal-icon.html"
+							button_prefix="btn__" 
+							button_mod="is--delete"
+							button_type="button"
+							button_icon="icon-delete"
+							button_attr="title='Удалить '"
+							button_target="modal-delete"
+						]]
+					</td>
+				</tr>
+				<tr class="is--ready"> 
+					<td>
+						[[azbntple 
+							tpl="/src/block/site/default/button/link-icon.html"
+							button_prefix="btn__" 
+							button_mod="is--edit"
+							button_link="{{page.signup_manager_edit}}"
+							button_icon="icon-edit"
+							button_attr="title='Редактивовать'"
+						]]
+					</td>
+					<td>ООО Артстрой</td>
+					<td>Artstroy</td>
+					<td>+7 (495) 660-11-60</td>
+					<td>info@terra-logistica.ru</td>
+					<td>30.04.2015</td>
+					<td>
+						[[azbntple 
+							tpl="/src/block/site/default/button/button-modal-icon.html"
+							button_prefix="btn__" 
+							button_mod="is--delete  is--active"
+							button_type="button"
+							button_icon="icon-lock"
+							button_attr="title='Разблокировать '"
+							button_target="modal-lock"
+						]]
+					</td>
+					<td>
+						[[azbntple 
+							tpl="/src/block/site/default/button/button-modal-icon.html"
+							button_prefix="btn__" 
+							button_mod="is--delete"
+							button_type="button"
+							button_icon="icon-delete"
+							button_attr="title='Удалить '"
+							button_target="modal-delete"
+						]]
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>	
+</div>

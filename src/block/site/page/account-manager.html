@@ -1,0 +1,62 @@
+<main class="{{content_prefix}}panel  {{content_mod}}">
+	<div class="{{content_prefix}}container container  {{content_mod}}  is--full">		
+		[[azbntple 
+			tpl="/src/block/site/default/page-header/panel-btn.html"
+			block_prefix="page-header__" 
+			block_mod="{{block_heading_mod}}"
+			block_heading_level="{{block_heading_level}}"
+			block_heading="{{block_heading}}"
+			header_btn_name="{{block_heading_btn}}"
+			header_btn_mod="{{block_heading_btn_mod}}"
+			header_btn_link="{{block_heading_btn_link}}"
+		]]	
+		<form action="#" class="form__block  {{content_prefix}}elem  {{content_mod}}">
+			<div class="{{content_prefix}}row  row  is--wrap  is--gutter  {{content_mod}}">
+				<div class="{{content_prefix}}cols cols  is--left  {{content_mod}}">						
+					<div class="{{content_prefix}}elem  is--xl  {{content_mod}}">
+						[[azbntple 
+							tpl="/src/block/site/default/form/form-history-datapicker.html"
+							form_prefix="form__"
+							form_id="fsh"
+							form_mod="is--history" 
+							form_color="  "
+							content_prefix="{{content_prefix}}"
+						]]					
+					</div>					
+				</div>
+				<div class="{{content_prefix}}cols cols  is--right  {{content_mod}}">
+					<div class="{{content_prefix}}heading-block  {{content_mod}}">
+						<div class="{{content_prefix}}row  row  is--wrap  is--gutter  is--aic  is--jcsb  {{content_mod}}">
+							<div class="{{content_prefix}}cols cols  is--heading  {{content_mod}}">
+								<h3 class="{{content_prefix}}heading  {{content_mod}}">Запланированные отгрузки на 3 июля</h3>
+							</div>
+							<div class="{{content_prefix}}cols cols  is--search  {{content_mod}}">
+								[[azbntple 
+									tpl="/src/block/site/default/form/search.html"
+									block_prefix="form__"
+									block_mod="  "
+									block_mod_elem="  "
+									block_placeholder="Поиск по компании"
+								]]
+							</div>
+						</div>
+					</div>
+					[[azbntple 
+						tpl="/src/block/site/default/table/panel-history-manager.html" 
+						block_prefix="table-block__"
+						block_mod="is--history"
+					]]
+					<div class="{{content_prefix}}btn  {{content_mod}}">
+						[[azbntple 
+							tpl="/src/block/site/default/button/link.html"
+							button_prefix="btn__" 
+							button_mod="  "
+							button_link="##"
+							button_name="Выгрузить список в Exel"
+						]]					
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</main>

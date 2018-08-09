@@ -1,0 +1,67 @@
+<main class="{{content_prefix}}panel  {{content_mod}}">
+	<div class="{{content_prefix}}container container  {{content_mod}}  is--full">		
+		[[azbntple 
+			tpl="/src/block/site/default/page-header/panel-level2.html"
+			block_prefix="page-header__" 
+			block_mod="{{block_heading_mod}}"
+			block_heading_level="{{block_heading_level}}"
+			block_heading="{{block_heading}}"
+
+			block_bread_mod="{{block_bread_mod}}"
+			block_bread_level_1_link="{{block_bread_level_1_link}}"
+			block_bread_level_1="{{block_bread_level_1}}"
+		]]
+		<form action="#" class="form__block  {{content_prefix}}elem  {{content_mod}}">
+			<div class="{{content_prefix}}row  row  is--wrap  is--gutter  {{content_mod}}">
+				<div class="{{content_prefix}}cols cols  is--left  {{content_mod}}">
+					<div class="{{content_prefix}}elem  is--xl  {{content_mod}}">
+						<h3 class="{{content_prefix}}heading  {{content_mod}}">01. Выберите тип автомобиля</h3>						
+						[[azbntple 
+							tpl="/src/block/site/default/form/form-order-auto.html"
+							form_prefix="form__"
+							form_id="fso"
+							form_mod="is--order-auto" 
+							form_color="  "
+							content_prefix="{{content_prefix}}"
+						]]					
+					</div>			
+					<div class="{{content_prefix}}elem  is--xl  {{content_mod}}">
+						<h3 class="{{content_prefix}}heading  {{content_mod}}">02. Выберите тип поставки</h3>						
+						[[azbntple 
+							tpl="/src/block/site/default/form/form-order-product.html"
+							form_prefix="form__"
+							form_id="fso"
+							form_mod="is--order-product" 
+							form_color="  "
+							content_prefix="{{content_prefix}}"
+						]]					
+					</div>			
+					<div class="{{content_prefix}}elem  is--xl  {{content_mod}}">
+						<h3 class="{{content_prefix}}heading  {{content_mod}}">03. Выберите дату и интервал времени:</h3>						
+						[[azbntple 
+							tpl="/src/block/site/default/form/form-order-time.html"
+							form_prefix="form__"
+							form_id="fso"
+							form_mod="is--order-time" 
+							form_color="  "
+							content_prefix="{{content_prefix}}"
+						]]					
+					</div>					
+				</div>
+				<div class="{{content_prefix}}cols cols  is--right  {{content_mod}}">
+					[[azbntple 
+						tpl="/src/block/site/default/card/card-order-result.html"
+						block_prefix="card-item__" 
+						block_mod="is--order-result"
+					]]
+				</div>
+			</div>
+		</form>
+	</div>
+	[[azbntple 
+		tpl="/src/block/site/default/bg/card.html"
+		block_prefix="bg-block__" 
+		block_mod="is--bg-980x1770"
+		block_bg="bg-980x1770.png"
+	]]
+</main>

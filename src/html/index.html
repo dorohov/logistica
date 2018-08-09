@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU"> 
+	<head>
+		[[azbntple 
+			tpl="/src/block/site/default/head/.html" 
+			title=" "
+			description=" "
+		]] 		
+	</head>
+	<body class="is--index-page"> 
+		[[azbntple 
+			tpl="/src/block/site/default/navbar/.html"
+			class="navbar-site scroll"
+			navbar_prefix="navbar__"
+			navbar_mod="is--index"
+		]] 
+		[[azbntple 
+			tpl="/src/block/site/default/header/panel.html"
+			block_prefix="header-block__"
+			block_heading="Логистические услуги"
+			block_heading_small="  "
+			block_bg="{{url-path-img}}/temp/bg-index-header.jpg"
+		]]
+		[[azbntple  
+			tpl="/src/block/site/page/index-about.html"
+			content_prefix="content-block__"   
+			content_mod="is--about-index"
+			content_id="about-block"
+			block_heading_mod="is--index-heading"
+			block_heading_level="h2"
+			block_heading="История компании"
+		]]
+		[[azbntple  
+			tpl="/src/block/site/page/index-services.html"
+			content_prefix="content-block__"  
+			content_mod="is--services-index"
+			content_id="services-block"
+			block_heading_mod="is--index-heading"
+			block_heading_level="h2"
+			block_heading="Услуги"
+		]]			
+
+
+		[[azbntple  
+			tpl="8/src/block/site/page/index-adv.html"
+			content_prefix="content-block__"
+			content_mod="is--adv-index"
+			content_id="adv-block"
+		]]
+		[[azbntple  
+			tpl="8/src/block/site/page/index-portfolio.html"
+			content_prefix="content-block__"   
+			content_mod="is--portfolio-index"
+			content_id="portfolio-block"
+			block_heading_mod="is--index-heading"
+			block_heading_level="h2"
+			block_heading="Гарантия по договору, а не на словах"
+		]]	
+		[[azbntple 
+			tpl="8/src/block/site/default/form/block.html" 
+			block_prefix="form-panel__"
+			block_mod="is--bg  is--form"
+			block_bg="{{url-path-img}}/temp/bg-form.jpg"
+			form_prefix="form__"
+			form_id="fscalc"
+			form_mod="is--calc" 
+			form_color="is--white"
+			form_heading="Получите предварительный рассчет"
+			form_heading_small="  "
+			form_heading_mod="is--form-block"
+			form_btn_name="Отправить"
+			form_btn_mod="is--sm  is--block"
+		]]
+		[[azbntple  
+			tpl="8/src/block/site/default/contacts/panel.html"
+			content_prefix="kontakty-panel__"       
+			content_mod="  "
+			content_id="contacts-block"  
+			block_heading_mod="is--index-contacts"
+			block_heading_level="h2"
+			block_heading="Контакты"  
+		]]		
+		[[azbntple 
+			tpl="/src/block/site/default/footer/.html"
+			footer_prefix="footer__" 
+		]]		
+		[[azbntple tpl="/src/block/site/default/script/script.html" ]]
+		[[azbntple tpl="/src/block/site/default/modals/include.html" ]]
+		[[azbntple tpl="/src/block/site/default/script/googleMap.html" ]]
+	</body>
+</html>

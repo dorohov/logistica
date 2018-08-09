@@ -1,0 +1,158 @@
+.bg-block__{
+	&card{		
+		position: absolute;
+		&.is--bg-980x1770{		
+			z-index: 1;
+			top: -20%;
+			right: -15%;
+			max-width: 980px;
+			max-height: 1770px;
+			width: 52vw;
+			height: 93vw;	
+			display: none;
+			@media @media-point-screen {
+				display: block;
+			}	
+		} 
+		&.is--bg-900x660{		
+			z-index: 1;
+			top: 0;
+			left: -18%;
+			max-width: 900px;
+			max-height: 660px;
+			background-position: top left;
+			width: 47vw;
+			height: 35vw;
+			display: none;
+			@media @media-point-screen-lg {
+				display: block;
+			}	
+			@media @media-point-xxl {
+				left: -11%;
+			}
+		} 
+		&.is--bg-services-780x605{		
+			z-index: 2;
+			bottom: -20%;
+			right: -20%;
+			max-width: 780px;
+			max-height: 605px;
+			width: 41vw;
+			height: 32vw;	
+			display: none;
+			@media @media-point-screen-lg {
+				display: block;
+			}	
+			/*&.is--services-page{
+				top: 0%;
+			}*/
+		} 
+		//box
+		&.is--bg-box-183x189{
+			z-index: 1;
+			max-width: 183px;
+			max-height: 189px;
+			width: 9.6vw;
+			height: 10vw;
+			top: 0%;
+			left: 17%;
+			display: none;
+			@media @media-point-screen {
+			bg-map-435x960	display: block;
+			}
+		}
+		&.is--bg-box-270x260{
+			z-index: 1;
+			max-width: 270px;
+			max-height: 260px;
+			width: 15vw;
+			height: 14vw;
+			top: 14.5%;
+			left: 4.5%;
+			display: none;
+			@media @media-point-screen {
+				display: block;
+			}
+		}
+		&.is--bg-box-222x203{
+			z-index: 1;
+			max-width: 222px;
+			max-height: 203px;
+			width: 12vw;
+			height: 11vw;
+			bottom: 21%;
+			left: 20%;
+			display: none;
+			@media @media-point-screen {
+				display: block;
+			}
+		}
+		&.is--bg-box-404x336{
+			z-index: 1;
+			max-width: 404px;
+			max-height: 336px;
+			width: 22vw;
+			height: 18vw;
+			top: 11%;
+			right: 3%;
+			display: none;
+			@media @media-point-screen {
+				display: block;
+			}
+		}
+		&.is--bg-box-203x195{
+			z-index: 1;
+			max-width: 203px;
+			max-height: 195px;
+			width: 11vw;
+			height: 10.5vw;
+			top: 44%;
+			right: 10%;
+			display: none;
+			@media @media-point-screen {
+				display: block;
+			}
+		}
+		//map
+		&.is--bg-map-435x960{
+			z-index: 1;
+			max-width: 435px;
+			max-height: 960px;
+			width: 23vw;
+			height: 51vw;
+			top: -10%;
+			left: 0;
+			background-position: top left;
+			display: none;
+			@media @media-point-screen {
+				display: block;
+			}
+		}
+		&.is--bg-map-675x901{
+			z-index: 1;
+			max-width: 675px;
+			max-height: 901px;
+			width: 36vw;
+			height: 48vw;
+			bottom: 0;
+			right: 0;
+			background-position: bottom right;
+			display: none;
+			@media @media-point-screen {
+				display: block;
+			}
+		}
+		svg{display: block;}
+	}
+	&inner{
+		position: absolute;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 100%;
+		height: 100%;
+		&.is--bg-980x1770{
+			background-position: top right;			
+		}		
+	}
+}

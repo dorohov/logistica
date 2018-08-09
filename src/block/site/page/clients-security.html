@@ -1,0 +1,37 @@
+<main class="{{content_prefix}}panel  {{content_mod}}">
+	<div class="{{content_prefix}}container container  {{content_mod}}  is--full">			
+		[[azbntple 
+			tpl="/src/block/site/default/page-header/panel-level2.html"
+			block_prefix="page-header__" 
+			block_mod="{{block_heading_mod}}"
+			block_heading_level="{{block_heading_level}}"
+			block_heading="{{block_heading}}"
+
+			block_bread_mod="{{block_bread_mod}}"
+			block_bread_level_1_link="{{block_bread_level_1_link}}"
+			block_bread_level_1="{{block_bread_level_1}}"
+		]]	
+		<div class="{{content_prefix}}elem  {{content_mod}}">
+			<div class="{{content_prefix}}elem  {{content_mod}}">
+				<div class="{{content_prefix}}heading-block  {{content_mod}}">
+					<div class="{{content_prefix}}row  row  is--wrap  is--gutter  is--aic  is--jcfe  {{content_mod}}">
+						<div class="{{content_prefix}}cols cols  is--search  {{content_mod}}">
+							[[azbntple 
+								tpl="/src/block/site/default/form/search.html"
+								block_prefix="form__"
+								block_mod="  "
+								block_mod_elem="  "
+								block_placeholder="Поиск по компании"
+							]]
+						</div>
+					</div>
+				</div>
+				[[azbntple 
+					tpl="/src/block/site/default/table/panel-clients-security.html" 
+					block_prefix="table-block__"
+					block_mod="is--history"
+				]]
+			</div>
+		</div>
+	</div>
+</main>

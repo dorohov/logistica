@@ -1,0 +1,24 @@
+<div class="row {{form_prefix}}row  {{form_mod}}  is--wrap">
+	<div class="cols {{form_prefix}}cols  {{form_mod}}  is--date">
+		[[azbntple 
+			tpl="/src/block/site/default/form/elem-datapicker.html"
+			form_id="{{form_id}}"
+			block_id="date"
+			block_prefix="{{form_prefix}}"
+			block_mod="{{form_mod}}"
+			block_mod_elem="is--datepicker"
+			block_color="{{form_color}}"
+			block_plugin="datepicker-inline"
+			block_legend="<div class='legend__card  is--order'>- Забронированные</div>" 
+		]]
+		<div class="{{content_prefix}}btn  {{form_mod}}">
+			[[azbntple 
+				tpl="/src/block/site/default/button/link.html"
+				button_prefix="btn__" 
+				button_mod="  "
+				button_link="{{page.order}}"
+				button_name="Забронировать дату"
+			]]
+		</div>
+	</div>
+</div>

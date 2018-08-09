@@ -1,0 +1,116 @@
+<form action="#" class="{{form_prefix}}block  {{form_mod}}"  >
+	<input type="hidden" name="key" value="londonisthecapitalofgreatbritain">
+	<input type="hidden" name="f[Форма: {{form_heading}}]">
+	<div class="{{form_prefix}}inner  {{form_mod}}"  >
+		<div class="row {{form_prefix}}row  {{form_mod}}  is--wrap">
+			<div class="cols {{form_prefix}}cols  {{form_mod}}  is--comp">
+				[[azbntple 
+					tpl="/src/block/site/default/form/elem-input-value.html"
+					form_id="{{form_id}}"
+					block_id="comp"
+					block_prefix="{{form_prefix}}"
+					block_mod="{{form_mod}}"
+					block_mod_elem="is--comp"
+					block_color="{{form_color}}"
+					block_type="text"
+					block_attr="  "
+					block_required="required"
+					block_required_custom="  "
+					block_label="Название компании"
+					block_placeholder="Название компании"
+					block_value="OOO «Артстрой»"
+				]]
+			</div>
+			<div class="cols {{form_prefix}}cols  {{form_mod}}  is--tel">
+				[[azbntple 
+					tpl="/src/block/site/default/form/elem-input-custom-value.html"
+					form_id="{{form_id}}"
+					block_id="tel"
+					block_prefix="{{form_prefix}}"
+					block_mod="{{form_mod}}"
+					block_mod_elem="is--tel"
+					block_color="{{form_color}}"
+					block_type="tel"
+					block_attr="  "
+					block_required="required"
+					block_required_custom="phone"
+					block_label="Телефон для связи"
+					block_placeholder="Телефон для связи"
+					block_value="+7 (495) 660-11-60"
+				]]
+			</div>
+			<div class="cols {{form_prefix}}cols  {{form_mod}}  is--email">
+				[[azbntple 
+					tpl="/src/block/site/default/form/elem-input-custom-value.html"
+					form_id="{{form_id}}"
+					block_id="email"
+					block_prefix="{{form_prefix}}"
+					block_mod="{{form_mod}}"
+					block_mod_elem="is--email"
+					block_color="{{form_color}}"
+					block_type="email"
+					block_attr="  "
+					block_required="required"
+					block_required_custom="email"
+					block_label="E-mail"
+					block_placeholder="E-mail"
+					block_value="info@terra-logistica.ru"
+				]]
+			</div>
+			<div class="cols {{form_prefix}}cols  {{form_mod}}  is--textarea">
+				[[azbntple 
+					tpl="/src/block/site/default/form/elem-textarea-value.html"
+					form_id="{{form_id}}"
+					block_id="comments"
+					block_prefix="{{form_prefix}}"
+					block_mod="{{form_mod}}"
+					block_mod_elem="is--textarea"
+					block_color="{{form_color}}"
+					block_attr="  "
+					block_required="required"
+					block_required_custom="  "
+					block_label="Описание компании"
+					block_placeholder="Описание компании"
+					block_value="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+				]]
+			</div>
+			<div class="cols {{form_prefix}}cols  {{form_mod}}  is--agreement">
+				[[azbntple 
+					tpl="/src/block/site/default/form/elem-agreement.html"
+					form_id="{{form_id}}"
+					block_id="agreement"
+					block_prefix="{{form_prefix}}"
+					block_mod="{{form_mod}}"
+					block_mod_elem="  "
+					block_color="{{form_color}}"
+					block_attr="checked"
+					block_required="required"
+					block_label="Согласие на обработку персональных данных"
+					block_text="Нажимая на кнопку «{{form_btn_name}}» вы соглашаетесть с правилами обработки <a href='{{page.agreement}}' target='_blank'>персональных данных</a>"
+				]]	
+			</div>
+			<div class="cols {{form_prefix}}cols  {{form_mod}}  is--btn">
+				<div class="row {{form_prefix}}row  {{form_mod}}  is--gutter15  is--wrap  is--inner-btn">
+					<div class="cols {{form_prefix}}cols  is--inner-btn  {{form_mod}}">
+						[[azbntple 
+							tpl="/src/block/site/default/button/button.html"
+							button_prefix="btn__" 
+							button_mod="{{form_btn_mod}}"
+							button_type="submit"
+							button_name="{{form_btn_name}}"
+						]]	
+					</div>
+					<div class="cols {{form_prefix}}cols  is--inner-btn  {{form_mod}}">
+						[[azbntple 
+							tpl="/src/block/site/default/button/link.html"
+							button_prefix="btn__" 
+							button_mod="is--invers"
+							button_link="{{page.account}}"
+							button_name="Вернуться назад"
+						]]				
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div> 
+</form> 

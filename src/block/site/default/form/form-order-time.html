@@ -1,0 +1,169 @@
+<div class="row {{form_prefix}}row  {{form_mod}}  is--wrap">
+	<div class="cols {{form_prefix}}cols  {{form_mod}}  is--date">
+		<h5 class="{{content_prefix}}heading">
+			Дата:
+		</h5>
+		[[azbntple 
+			tpl="/src/block/site/default/form/elem-datapicker.html"
+			form_id="{{form_id}}"
+			block_id="date"
+			block_prefix="{{form_prefix}}"
+			block_mod="{{form_mod}}"
+			block_mod_elem="is--datepicker"
+			block_color="{{form_color}}"
+			block_plugin="datepicker-inline"
+			block_legend="<div class='legend__card  is--reserved'>- Забронированные</div><div class='legend__card  is--free'>- Свободные</div>"
+		]]
+	</div>
+	<div class="cols {{form_prefix}}cols  {{form_mod}}  is--gate-time">
+		<div class="{{content_prefix}}elem  is--xs">
+			<h5 class="{{content_prefix}}heading">
+				Ворота:
+			</h5>
+			<div class="row  is--wrap  is-gutter">
+				<div class="cols">
+					[[azbntple 
+						tpl="/src/block/site/default/form/elem-switch.html"
+						form_id="{{form_id}}"
+						block_id="switch1"
+						block_prefix="form__"
+						block_mod="  "
+						block_mod_elem="is--switch"
+						block_color="  "
+						block_type="radio"
+						block_attr="  "
+						block_required="required"
+						block_required_custom="  "
+						block_label="Радио кнопка"
+						block_text="Ворота №1"
+					]]
+				</div>
+				<div class="cols">
+					[[azbntple 
+						tpl="/src/block/site/default/form/elem-switch.html"
+						form_id="{{form_id}}"
+						block_id="switch2"
+						block_prefix="form__"
+						block_mod="  "
+						block_mod_elem="is--switch"
+						block_color="  "
+						block_type="radio"
+						block_attr="  "
+						block_required="required"
+						block_required_custom="  "
+						block_label="Радио кнопка"
+						block_text="Ворота №2"
+					]]
+				</div>
+				<div class="cols">
+					[[azbntple 
+						tpl="/src/block/site/default/form/elem-switch.html"
+						form_id="{{form_id}}"
+						block_id="switch3"
+						block_prefix="form__"
+						block_mod="  "
+						block_mod_elem="is--switch"
+						block_color="  "
+						block_type="radio"
+						block_attr="  "
+						block_required="required"
+						block_required_custom="  "
+						block_label="Радио кнопка"
+						block_text="Ворота №3"
+					]]
+				</div>
+				<div class="cols">
+					[[azbntple 
+						tpl="/src/block/site/default/form/elem-switch.html"
+						form_id="{{form_id}}"
+						block_id="switch4"
+						block_prefix="form__"
+						block_mod="  "
+						block_mod_elem="is--switch"
+						block_color="  "
+						block_type="radio"
+						block_attr="  "
+						block_required="required"
+						block_required_custom="  "
+						block_label="Радио кнопка"
+						block_text="Ворота №4"
+					]]
+				</div>
+				
+			</div>
+		</div>
+		<div class="{{content_prefix}}elem  is--xs">
+			<h5 class="{{content_prefix}}heading">
+				Время:
+			</h5>
+			<div class="row  is--wrap  is--gutter10">
+				<div class="cols">
+					[[azbntple 
+						tpl="/src/block/site/default/form/elem-badge.html"
+						block_prefix="form__"
+						block_mod="  "
+						block_mod_elem="is--badge"
+						block_status="  "
+						block_type="button"
+						block_text="08:00 - 10:00"
+					]]
+				</div>
+				<div class="cols">
+					[[azbntple 
+						tpl="/src/block/site/default/form/elem-badge.html"
+						block_prefix="form__"
+						block_mod="  "
+						block_mod_elem="is--badge"
+						block_status="is--reserv"
+						block_type="button"
+						block_text="10:00 - 12:00"
+					]]
+				</div>
+				<div class="cols">
+					[[azbntple 
+						tpl="/src/block/site/default/form/elem-badge.html"
+						block_prefix="form__"
+						block_mod="  "
+						block_mod_elem="is--lock  is--badge"
+						block_status="is--reserv"
+						block_type="button"
+						block_text="12:00 - 14:00"
+					]]
+				</div>
+				<div class="cols">
+					[[azbntple 
+						tpl="/src/block/site/default/form/elem-badge.html"
+						block_prefix="form__"
+						block_mod="  "
+						block_mod_elem="is--badge"
+						block_status="  "
+						block_type="button"
+						block_text="14:00 - 16:00"
+					]]
+				</div>
+				<div class="cols">
+					[[azbntple 
+						tpl="/src/block/site/default/form/elem-badge.html"
+						block_prefix="form__"
+						block_mod="  "
+						block_mod_elem="is--badge"
+						block_status="  "
+						block_type="button"
+						block_text="16:00 - 18:00"
+					]]
+				</div>
+				<div class="cols">
+					[[azbntple 
+						tpl="/src/block/site/default/form/elem-badge.html"
+						block_prefix="form__"
+						block_mod="  "
+						block_mod_elem="is--badge"
+						block_status="  "
+						block_type="button"
+						block_text="18:00 - 20:00"
+					]]
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

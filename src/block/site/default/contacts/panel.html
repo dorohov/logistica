@@ -1,0 +1,35 @@
+<div class="{{content_prefix}}block"  id="{{content_id}}">
+	<div class="{{content_prefix}}panel">
+		[[azbntple 
+			tpl="/src/block/site/default/page-header/panel-heading.html"
+			block_prefix="page-header__" 
+			block_mod="{{block_heading_mod}}"
+			block_heading_level="{{block_heading_level}}"
+			block_heading="{{block_heading}}"
+		]]
+		[[azbntple 
+			tpl="/src/block/site/default/social/panel-contacts-footer.html" 
+			block_prefix="social-contacts__" 
+			block_mod="is--contacts" 
+		]]
+		<div class="{{content_prefix}}btn">
+			[[azbntple 
+				tpl="/src/block/site/default/button/link.html"
+				button_prefix="btn-link__" 
+				button_mod="  "
+				button_link="{{page.requisites}}"
+				button_name="Реквизиты компании" 
+			]]
+		</div>
+		<div class="{{content_prefix}}btn">
+			[[azbntple 
+				tpl="/src/block/site/default/button/button-modal.html"
+				button_prefix="btn__" 
+				button_mod="  "
+				button_target="modal-reviews"
+				button_name="Задать вопрос Online" 
+			]]	
+		</div>
+	</div>
+	<div class="{{content_prefix}}map" id="map-google" data-map='{"center" : [55.9179579,37.5654594],"center_xs" : [55.9175,37.5700],"zoom" : 15,"zoom_xs" : 13,"placemarks" : [{"coord" : [55.918639, 37.571627]}]}' ></div>
+</div>

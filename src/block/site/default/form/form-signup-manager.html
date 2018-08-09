@@ -1,0 +1,141 @@
+<form action="#" class="{{form_prefix}}block  {{form_mod}}"  >
+	<input type="hidden" name="key" value="londonisthecapitalofgreatbritain">
+	<input type="hidden" name="f[Форма: {{form_heading}}]">
+	<div class="{{form_prefix}}inner  {{form_mod}}"  >
+		<div class="row {{form_prefix}}row  {{form_mod}}  is--wrap  is--aic">
+			<div class="cols {{form_prefix}}cols  {{form_mod}}  is--comp">
+				[[azbntple 
+					tpl="/src/block/site/default/form/elem-input.html"
+					form_id="{{form_id}}"
+					block_id="comp"
+					block_prefix="{{form_prefix}}"
+					block_mod="{{form_mod}}"
+					block_mod_elem="is--comp"
+					block_color="{{form_color}}"
+					block_type="text"
+					block_attr="  "
+					block_required="required"
+					block_required_custom="  "
+					block_label="Название компании"
+					block_placeholder="Название компании"
+				]]
+			</div>
+			<div class="cols {{form_prefix}}cols  {{form_mod}}  is--tel">
+				[[azbntple 
+					tpl="/src/block/site/default/form/elem-input-custom.html"
+					form_id="{{form_id}}"
+					block_id="tel"
+					block_prefix="{{form_prefix}}"
+					block_mod="{{form_mod}}"
+					block_mod_elem="is--tel"
+					block_color="{{form_color}}"
+					block_type="tel"
+					block_attr="  "
+					block_required="required"
+					block_required_custom="phone"
+					block_label="Телефон для связи"
+					block_placeholder="Телефон для связи"
+				]]
+			</div>
+			<div class="cols {{form_prefix}}cols  {{form_mod}}  is--email">
+				[[azbntple 
+					tpl="/src/block/site/default/form/elem-input-custom.html"
+					form_id="{{form_id}}"
+					block_id="email"
+					block_prefix="{{form_prefix}}"
+					block_mod="{{form_mod}}"
+					block_mod_elem="is--email"
+					block_color="{{form_color}}"
+					block_type="email"
+					block_attr="  "
+					block_required="required"
+					block_required_custom="email"
+					block_label="E-mail"
+					block_placeholder="E-mail"
+				]]
+			</div>
+			<div class="cols {{form_prefix}}cols  {{form_mod}}  is--textarea">
+				[[azbntple 
+					tpl="/src/block/site/default/form/elem-textarea.html"
+					form_id="{{form_id}}"
+					block_id="comments"
+					block_prefix="{{form_prefix}}"
+					block_mod="{{form_mod}}"
+					block_mod_elem="is--textarea"
+					block_color="{{form_color}}"
+					block_attr="  "
+					block_required="required"
+					block_required_custom="  "
+					block_label="Описание компании"
+					block_placeholder="Описание компании"
+				]]
+			</div>
+			<div class="cols {{form_prefix}}cols  {{form_mod}}  is--login">
+				[[azbntple 
+					tpl="/src/block/site/default/form/elem-input.html"
+					form_id="{{form_id}}"
+					block_id="login"
+					block_prefix="{{form_prefix}}"
+					block_mod="{{form_mod}}"
+					block_mod_elem="is--login"
+					block_color="{{form_color}}"
+					block_type="text"
+					block_attr="  "
+					block_required="required"
+					block_required_custom="  "
+					block_label="Логин"
+					block_placeholder="Логин"
+				]]
+			</div>
+			<div class="cols {{form_prefix}}cols  {{form_mod}}  is--pass">
+				[[azbntple 
+					tpl="/src/block/site/default/form/elem-password.html"
+					form_id="{{form_id}}"
+					block_id="pass"
+					block_prefix="{{form_prefix}}"
+					block_mod="{{form_mod}}"
+					block_mod_elem="is--pass"
+					block_color="{{form_color}}"
+					block_type="password"
+					block_attr="  "
+					block_required="required"
+					block_required_custom="  "
+					block_label="Пароль"
+					block_placeholder="Пароль"
+				]]
+			</div>
+			<div class="cols {{form_prefix}}cols  {{form_mod}}  is--gener">
+				[[azbntple 
+					tpl="/src/block/site/default/button/link.html"
+					button_prefix="btn-link__" 
+					button_mod="  "
+					button_link="##"
+					button_name="Сгенерировать пароль" 
+				]]
+			</div>
+			<div class="cols {{form_prefix}}cols  {{form_mod}}  is--btn">
+				<div class="row  is--wrap  is--gutter  is--jcc">
+					<div class="cols">
+						[[azbntple 
+							tpl="/src/block/site/default/button/button-modal.html"
+							button_prefix="btn__" 
+							button_mod="{{form_btn_mod}}"
+							button_target="modal-reg"
+							button_type="button"
+							button_name="{{form_btn_name}}"
+						]]
+					</div>
+					<div class="cols">	
+						[[azbntple 
+							tpl="/src/block/site/default/button/link.html"
+							button_prefix="btn__" 
+							button_mod="is--invers"
+							button_link="{{page.clients}}"
+							button_name="Отмена"
+						]]			
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div> 
+</form> 
