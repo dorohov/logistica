@@ -2566,7 +2566,7 @@ $(function(){
 $ = $ && $.hasOwnProperty('default') ? $['default'] : $;
 
 var CMS__TPL_PATH = '/wp-content/themes/azbn7theme'; 
-var CMS__TPL_PATH = ''; 
+//var CMS__TPL_PATH = ''; 
 var DEFAULTS = {
   // Show the datepicker automatically when initialized
   autoShow: false,

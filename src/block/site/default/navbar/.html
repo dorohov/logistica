@@ -18,7 +18,29 @@
 						</a>
 					</div>
 					<div class="cols {{navbar_prefix}}cols-header  is--tel">
-						<a href="{{page.signin}}" class="{{navbar_prefix}}signin  is--icon">[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="signin" ]]</a>
+						<!--<a href="{{page.signin}}" class="{{navbar_prefix}}signin  is--icon">[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="signin" ]]</a>-->
+						
+							<div class="{{navbar_prefix}}signin-dropdown dropdown  {{navbar_mod}}">
+								<a href="#" class="dropdown-toggle  {{navbar_prefix}}signin  is--icon"  data-toggle="dropdown">
+									<div class="{{navbar_prefix}}signin-icon  is--icon">[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="icon-user" ]]</div>
+								</a>
+								<div class="{{navbar_prefix}}signin-dropdown-menu dropdown-menu">
+									<ul class="{{navbar_prefix}}signin-dropdown-nav">
+										<li class="{{navbar_prefix}}signin-dropdown-item">
+											<a href="#" class="{{navbar_prefix}}signin-dropdown-link"><span>Личный кабинет</span></a>
+										</li>
+										<li class="{{navbar_prefix}}signin-dropdown-item">
+											<a href="#" class="{{navbar_prefix}}signin-dropdown-link"><span>Оформить заявку</span></a>
+										</li>
+										<li class="{{navbar_prefix}}signin-dropdown-item">
+											<a href="#" class="{{navbar_prefix}}signin-dropdown-link"><span>Календарь заявок</span></a>
+										</li>
+										<li class="{{navbar_prefix}}signin-dropdown-item">
+											<a href="#" class="{{navbar_prefix}}signin-dropdown-link"><span>Выйти</span></a>
+										</li>
+									</ul>
+								</div>
+							</div>
 					</div>
 				</div>
 			</div>
@@ -93,10 +115,31 @@
 							</a>
 						</div>
 						<div class="cols {{navbar_prefix}}collapse-cols cols  is--right">
-							<a href="{{page.signin}}" class="{{navbar_prefix}}signin">
+							<!--<a href="{{page.signin}}" class="{{navbar_prefix}}signin">
 								<div class="{{navbar_prefix}}signin-name">Войти</div>
 								<div class="{{navbar_prefix}}signin-icon">[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="signin" ]]</div>
-							</a>
+							</a>-->
+							<div class="{{navbar_prefix}}signin-dropdown dropdown  {{navbar_mod}}">
+								<a href="#" class="dropdown-toggle  {{navbar_prefix}}signin  is--icon"  data-toggle="dropdown">
+									<div class="{{navbar_prefix}}signin-icon  is--icon">[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="icon-user" ]]</div>
+								</a>
+								<div class="{{navbar_prefix}}signin-dropdown-menu dropdown-menu">
+									<ul class="{{navbar_prefix}}signin-dropdown-nav">
+										<li class="{{navbar_prefix}}signin-dropdown-item">
+											<a href="#" class="{{navbar_prefix}}signin-dropdown-link"><span>Личный кабинет</span></a>
+										</li>
+										<li class="{{navbar_prefix}}signin-dropdown-item">
+											<a href="#" class="{{navbar_prefix}}signin-dropdown-link"><span>Оформить заявку</span></a>
+										</li>
+										<li class="{{navbar_prefix}}signin-dropdown-item">
+											<a href="#" class="{{navbar_prefix}}signin-dropdown-link"><span>Календарь заявок</span></a>
+										</li>
+										<li class="{{navbar_prefix}}signin-dropdown-item">
+											<a href="#" class="{{navbar_prefix}}signin-dropdown-link"><span>Выйти</span></a>
+										</li>
+									</ul>
+								</div>
+							</div>	
 						</div>
 					</div>
 				</div>
