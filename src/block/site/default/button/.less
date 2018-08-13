@@ -2,12 +2,12 @@
 	font-size: @b-fs - 2;
 	line-height: @b-lh - 4;
 	font-weight: 700;
-	padding: 14px 25px;
+	padding: 14px 25px 12px;
 	//font-size: @btn_fs;
 	//line-height: @btn_lh;
 	border-radius: @btn_border_radius;
 	@media @media-point-screen {
-		padding: 12px 1.2vw;
+		padding: 14px 1.2vw 12px;
 	}
 }
 .btn-lg(){
@@ -23,7 +23,7 @@
 }
 .btn-xs(){
 	@media @media-point-screen {
-		padding-top: 7.5px;
+		padding-top: 9.5px;
 		padding-bottom: 7.5px;
 	}
 }
@@ -89,7 +89,7 @@
 			.btn-xs();
 		}	
 		&.is--navbar{	
-			padding-top: 7.5px;
+			padding-top: 9.5px;
 			padding-bottom: 7.5px;		
 			@media @media-point-screen {
 				.calcFontSize(14, 16, 1024, 1680);
